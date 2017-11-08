@@ -36,10 +36,10 @@ static int yuIndex = 0;
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self twoMe];
+    [self showCocos2d];
 }
 
--(void)twoMe{
+-(void)showCocos2d{
     
     cocos2d::Application *app = cocos2d::Application::getInstance();
     cocos2d::FileUtils::getInstance()->addSearchPath("Resource/");
